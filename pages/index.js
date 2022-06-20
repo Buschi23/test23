@@ -258,7 +258,9 @@ const Home = (props) => {
 </body>        
 
 </div>
-
+</div>
+</div>
+</div>
 
 
 
