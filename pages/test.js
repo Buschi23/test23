@@ -5,7 +5,7 @@ const Home = (props) => {
   return (
     <>
      <div id="price">
-  <!--price tab-->
+ 
   <div class="plan">
     <div class="plan-inner">
       <div class="entry-title">
@@ -27,8 +27,7 @@ const Home = (props) => {
       </div>
     </div>
   </div>
-  <!-- end of price tab-->
-  <!--price tab-->
+
   <div class="plan basic">
     <div class="plan-inner">
       <div class="hot">hot</div>
@@ -51,8 +50,7 @@ const Home = (props) => {
       </div>
     </div>
   </div>
-  <!-- end of price tab-->
-  <!--price tab-->
+
   <div class="plan standard">
     <div class="plan-inner">
       <div class="entry-title">
@@ -74,9 +72,7 @@ const Home = (props) => {
       </div>
     </div>
   </div>
-  <!-- end of price tab-->
-  <!--price tab-->
-  <div class="plan ultimite">
+    <div class="plan ultimite">
     <div class="plan-inner">
       <div class="entry-title">
         <h3>Unlimited Wash</h3>
@@ -97,7 +93,7 @@ const Home = (props) => {
       </div>
     </div>
   </div>
-  <!-- end of price tab-->
+
 </div>
     
     
