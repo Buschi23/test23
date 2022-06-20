@@ -46,6 +46,8 @@ const Home = (props) => {
           <br></br>
           <br></br>
           <br></br>
+          <br></br>
+          <br></br>
          </ul>
       </div>
       <div class="btn">
