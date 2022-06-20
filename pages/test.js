@@ -4,7 +4,7 @@ import Head from 'next/head'
 const Home = (props) => {
   return (
     <>
-      <div className="home-container">
+     
         <Head>
             <meta property="og:title" content="Landing Page1" />
         </Head>
@@ -89,7 +89,7 @@ const Home = (props) => {
     
     
     
-      </div>
+      
       <style jsx>
         {`
            
