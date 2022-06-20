@@ -67,7 +67,7 @@ const Home = (props) => {
             <button type="button" class="card-btn"> Choose Plan</button>
           </div>
 
-          <!-- Enterpise Card -->
+    
           <div class="card" id="card-3">
             <h1 class="card-title">Enterprise</h1>
             <h2 class="card-price"> Let's Talk! </h2>
