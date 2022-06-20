@@ -23,7 +23,7 @@ const Home = (props) => {
       <h1 class="title">Choose a plan</h1>
       <div class="toggle-switch">
             <span>Billed anually </span>
-            <input type="checkbox" class="toggler">
+            <input type="checkbox" class="toggler"></input>
             <span> Billed monthly</span>
       </div>
 
