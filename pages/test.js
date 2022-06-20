@@ -44,10 +44,11 @@ const Home = (props) => {
           <li>Samsung Bildschirm Reparatur</li>
           <li>IPhone Bildschirm Reparatur</li>
           <br></br>
+          <li></li>      
           <br></br>
+          <li></li>      
           <br></br>
-          <br></br>
-          <br></br>
+          <li></li>
          </ul>
       </div>
       <div class="btn">
