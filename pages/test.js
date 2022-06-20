@@ -4,84 +4,101 @@ import Head from 'next/head'
 const Home = (props) => {
   return (
     <>
-     
-        <Head>
-            <meta property="og:title" content="Landing Page1" />
-        </Head>
-        
-    
-    
-    
-<body>
-    
-    <div class="top-banner">
-        <p class="current-plan"> Your current Plan</p>
-        <p class="plan-type"> Starter Trial . 500MAUs</p>
+     <div id="price">
+  <!--price tab-->
+  <div class="plan">
+    <div class="plan-inner">
+      <div class="entry-title">
+        <h3>Basic Wash</h3>
+        <div class="price">$25<span>/PER CAR</span>
+        </div>
+      </div>
+      <div class="entry-content">
+        <ul>
+          <li><strong>1x</strong> option 1</li>
+          <li><strong>2x</strong> option 2</li>
+          <li><strong>3x</strong> option 3</li>
+          <li><strong>Free</strong> option 4</li>
+          <li><strong>Unlimited</strong> option 5</li>
+        </ul>
+      </div>
+      <div class="btn">
+        <a href="#">Order Now</a>
+      </div>
     </div>
-
-    <div class="container">
-      <h1 class="title">Choose a plan</h1>
-      <div class="toggle-switch">
-            <span>Billed anually </span>
-            <input type="checkbox" class="toggler">
-            <span> Billed monthly</span></input>
+  </div>
+  <!-- end of price tab-->
+  <!--price tab-->
+  <div class="plan basic">
+    <div class="plan-inner">
+      <div class="hot">hot</div>
+      <div class="entry-title">
+        <h3>Express Wash</h3>
+        <div class="price">$50<span>/PER CAR</span>
+        </div>
       </div>
-
-      <div class="cards">
-
-        
-          <div class="card" id="card-1">
-            <h1 class="card-title">Starter</h1>
-            <h2 class="card-price" id="starter-price"> $19 <span> / month</span> </h2>
-            <ul class="card-plan">
-                <li> 500MAUs</li>
-                <li> 3 projects</li>
-                <li>Unlimted guides</li>
-                <li>Unlimted flows</li>
-                <li>Unlimted branded thems</li>
-                <li>Email Support</li>
-            </ul>
-            <button type="button" class="card-btn"> Choose Plan</button>
-          </div>
-
-         
-          <div class="card active" id="card-2">
-            <h1 class="card-title">Pro</h1>
-            <h2 class="card-price" id="pro-price"> $99 <span> / month</span> </h2>
-          
-            <select  id="maus">
-                <option value="500">500 MAUS</option>
-                <option value="100">1000 MAUS</option>
-                <option value="1500">1500 MAUS</option>
-                <option value="2000">2000 MAUS</option>
-                <option value="2500">2500 MAUS</option>
-            </select>
-            <span class="note"> Monthely active users </span>
-          
-            <ul class="card-plan">
-                <li> All starter featured ,Plus : </li>
-                <li> Unlimted projects</li>
-                <li>Unlimted fully customizable themes</li>
-                <li>A dedicated customer Success Manager</li>
-            </ul>
-            <button type="button" class="card-btn"> Choose Plan</button>
-          </div>
-
-    
-          <div class="card" id="card-3">
-            <h1 class="card-title">Enterprise</h1>
-            <h2 class="card-price"> Let's Talk! </h2>
-            <ul class="card-plan">
-                <li> All pro featured</li>
-                <li> Unlimted MAUs</li>
-                <li> Detected enviroment</li>
-                <li> Enterprise account administration</li>
-                <li> Premium account and services</li>
-            </ul>
-            <button type="button" class="card-btn"> Contact Us</button>
-          </div>
+      <div class="entry-content">
+        <ul>
+          <li><strong>1x</strong> option 1</li>
+          <li><strong>2x</strong> option 2</li>
+          <li><strong>3x</strong> option 3</li>
+          <li><strong>Free</strong> option 4</li>
+          <li><strong>Unlimited</strong> option 5</li>
+        </ul>
       </div>
-    
+      <div class="btn">
+        <a href="#">Order Now</a>
+      </div>
+    </div>
+  </div>
+  <!-- end of price tab-->
+  <!--price tab-->
+  <div class="plan standard">
+    <div class="plan-inner">
+      <div class="entry-title">
+        <h3>Super Wash</h3>
+        <div class="price">$75<span>/PER CAR</span>
+        </div>
+      </div>
+      <div class="entry-content">
+        <ul>
+          <li><strong>2x</strong> Free Entrance</li>
+          <li><strong>Free</strong> Snacks</li>
+          <li><strong>Custom</strong> Swags</li>
+          <li><strong>2x</strong> Certificate</li>
+          <li><strong>Free</strong> Wifi</li>
+        </ul>
+      </div>
+      <div class="btn">
+        <a href="#">Order Now</a>
+      </div>
+    </div>
+  </div>
+  <!-- end of price tab-->
+  <!--price tab-->
+  <div class="plan ultimite">
+    <div class="plan-inner">
+      <div class="entry-title">
+        <h3>Unlimited Wash</h3>
+        <div class="price">$100<span>/PER CAR</span>
+        </div>
+      </div>
+      <div class="entry-content">
+        <ul>
+          <li><strong>1x</strong> option 1</li>
+          <li><strong>2x</strong> option 2</li>
+          <li><strong>3x</strong> option 3</li>
+          <li><strong>Free</strong> option 4</li>
+          <li><strong>Unlimited</strong> option 5</li>
+        </ul>
+      </div>
+      <div class="btn">
+        <a href="#">Order Now</a>
+      </div>
+    </div>
+  </div>
+  <!-- end of price tab-->
+</div>
     
     
     
@@ -90,248 +107,156 @@ const Home = (props) => {
       <style jsx>
         {`
            
-          * {
+          @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+body {
+  background: #F2F2F2;
+  padding: 0;
+  maring: 0;
+}
+
+#price {
+  text-align: center;
+}
+
+.plan {
+  display: inline-block;
+  margin: 10px 1%;
+  font-family: 'Lato', Arial, sans-serif;
+}
+
+.plan-inner {
+  background: #fff;
+  margin: 0 auto;
+  min-width: 280px;
+  max-width: 100%;
+  position:relative;
+}
+
+.entry-title {
+  background: #53CFE9;
+  height: 140px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.entry-title>h3 {
+  background: #20BADA;
+  font-size: 20px;
+  padding: 5px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+}
+
+.entry-title .price {
+  position: absolute;
+  bottom: -25px;
+  background: #20BADA;
+  height: 95px;
+  width: 95px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  border-radius: 50px;
+  border: 5px solid #fff;
+  line-height: 80px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.price span {
+  position: absolute;
+  font-size: 9px;
+  bottom: -10px;
+  left: 30px;
+  font-weight: 400;
+}
+
+.entry-content {
+  color: #323232;
+}
+
+.entry-content ul {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-*:focus {
-  outline: none;
-}
-
-ul {
   list-style: none;
-}
-
-
-body{
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #191b1d;
-  color: white;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.top-banner {
-  background-color: #bc1e4a;
-  position: absolute;
-  padding: 1.5rem 4rem;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
   text-align: center;
-  border-radius: 0 0 10px 10px;
 }
 
-p.current-plan {
-  font-size: 0.75rem;
-  margin-bottom: 0.5rem;
+.entry-content li {
+  border-bottom: 1px solid #E5E5E5;
+  padding: 10px 0;
 }
 
-p.plan-type {
-  font-size: 1rem;
-  font-weight: 900;
+.entry-content li:last-child {
+  border: none;
 }
 
-.container {
+.btn {
+  padding: 3em 0;
   text-align: center;
-  width: 1100px;
-  height: 60%;
 }
 
-h1.title {
-  letter-spacing: 2px;
-  margin-bottom: 1.5rem;
+.btn a {
+  background: #323232;
+  padding: 10px 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none
 }
-
-.toggle-switch{
-    display: flex;
-    height: 30px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1.5rem;
-}
-
-.toggler{
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    width: 50px;
-    height: 25px;
-    background-color: #bc1e4a;
-    border-radius: 25px;
-    margin: 0 1rem;
-    position: relative;
-}
-
-.toggler::before{
-    content: "";
-    width: 16px;
-    height: 16px;
-    background-color: white;
+.hot {
     position: absolute;
-    border-radius: 50%;
-    top:50%;
-    transform: translateY(-50%);
-    right:4px;
+    top: -7px;
+    background: #F80;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 2;
+    padding: 2px 5px;
+    font-size: 9px;
+    border-radius: 2px;
+    right: 10px;
+    font-weight: 700;
+}
+.basic .entry-title {
+  background: #75DDD9;
 }
 
-.toggler:checked:before{
-    right: 55%;
+.basic .entry-title > h3 {
+  background: #44CBC6;
 }
 
-.cards{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    flex-wrap: wrap;
-    height: 100%;
+.basic .price {
+  background: #44CBC6;
 }
 
-.card{
-   height: 500px;
-   width: 32%;
-   background-color: #22262C; 
-   border-radius: 15px;
-   padding: 2rem;
-   text-align: center;
+.standard .entry-title {
+  background: #4484c1;
 }
 
-.card-title{
-    font-size: 1.5rem;
-    font-weight: lighter;
-    margin-bottom: 1rem;
+.standard .entry-title > h3 {
+  background: #3772aa;
 }
 
-.card-price{
-    font-size: 3rem;
-    text-align: center;
+.standard .price {
+  background: #3772aa;
 }
 
-h2>span{
-    font-size: 1rem;
+.ultimite .entry-title > h3 {
+  background: #DD4B5E;
 }
 
-#card-3 .card-price{
-    font-size: 2rem;
-} 
-
-#card-1 .card-price{
-    margin-bottom: 4rem;
-}
-.card ul{
-    text-align: left;
-    font-size: 0.9rem;
-    font-weight: lighter;
+.ultimite .entry-title {
+  background: #F75C70;
 }
 
-.card ul li:before{
-    content:"•";
-    margin-right: 0.5rem;
-    color:#bc1e4a;
-    font-size: 1.5rem;
+.ultimite .price {
+  background: #DD4B5E;
 }
-
-.card ul li{
-    margin-bottom: 0.5rem;
-}
-
-.card-btn{
-    margin-top: 1rem;
-    width: 100%;
-    background-color: transparent;
-    border: 1px solid #bc1e4a;
-    color:white;
-    font-size: 1rem;
-    padding: 1rem;
-    border-radius: 5px;
-}
-
-#card-1 .card-btn:hover, 
-#card-3 .card-btn:hover, 
-.active .card-btn
-{
-    background-color: #bc1e4a;
-}
-
-#maus{
-  background: transparent;
-  color:white;
-  border-color: #545c5c;
-  margin-top: 1rem;
-  width: 100%;
-  padding: 1rem 2rem;
-  font-size: 1rem;
-  border-radius: 5px;
-}
-
-option{
-    font-size: 1.2rem;
-    background-color: #333;
-}
-
-.note{
-    color:#bc1e4a;
-    font-size: 0.75rem;
-    text-align: left;
-    display: block;
-    margin-top: 5px;
-}
-
-#card-2 ul{
-    margin-top: 3rem;
-}
-
-#card-3 ul{
-    margin-top: 7.5rem;
-}
-
-@media (max-width:1112px){
-    .cards{
-        justify-content: center;
-    }
-
-    .card{
-        width: 40%;
-    margin: 2rem;
-    }
-}
-
-@media (max-width:848px){
-    .card{
-        width:50%
-    }
-}
-
-@media (max-width:674px){
-    .top-banner{
-        width: 70%;
-    }
-    .card{
-        width: 70%;
-    }
-}
-
-@media (max-width:500px){
-    .top-banner{
-        width: 90%;
-    }
-
-
-
-    .card{
-        width: 90%;
-    }
-}
-          
-          
-          
           
           
           
