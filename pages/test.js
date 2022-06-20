@@ -4,18 +4,21 @@ import Head from 'next/head'
 const Home = (props) => {
   return (
     <>
-     <div id="price">
+    
+    
+    
+<div id="price">
  
   <div class="plan">
     <div class="plan-inner">
       <div class="entry-title">
-        <h3>Basic Wash</h3>
-        <div class="price">$25<span>/PER CAR</span>
+        <h3>PC-Reparatur</h3>
+        <div class="price">70€<span>/h</span>
         </div>
       </div>
       <div class="entry-content">
         <ul>
-          <li><strong>1x</strong> option 1</li>
+          <li> Hardware überprüfung</li>
           <li><strong>2x</strong> option 2</li>
           <li><strong>3x</strong> option 3</li>
           <li><strong>Free</strong> option 4</li>
