@@ -24,7 +24,7 @@ const Home = (props) => {
       <div class="toggle-switch">
             <span>Billed anually </span>
             <input type="checkbox" class="toggler">
-            <span> Billed monthly</span>
+            <span> Billed monthly</span></input>
       </div>
 
       <div class="cards">
