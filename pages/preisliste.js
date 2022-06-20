@@ -4,6 +4,7 @@ import Head from 'next/head'
 const Home = (props) => {
   return (
     <>
+    
       <div className="home-container">
         <Head>
           <title>Landing Page1</title>
