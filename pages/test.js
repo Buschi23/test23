@@ -12,7 +12,7 @@ const Home = (props) => {
     
     
     
- <body>
+<body>
     
     <div class="top-banner">
         <p class="current-plan"> Your current Plan</p>
@@ -23,7 +23,7 @@ const Home = (props) => {
       <h1 class="title">Choose a plan</h1>
       <div class="toggle-switch">
             <span>Billed anually </span>
-            <input type="checkbox" class="toggler"></input>
+            <input type="checkbox" class="toggler">
             <span> Billed monthly</span>
       </div>
 
@@ -67,6 +67,7 @@ const Home = (props) => {
             <button type="button" class="card-btn"> Choose Plan</button>
           </div>
 
+          <!-- Enterpise Card -->
           <div class="card" id="card-3">
             <h1 class="card-title">Enterprise</h1>
             <h2 class="card-price"> Let's Talk! </h2>
@@ -80,9 +81,6 @@ const Home = (props) => {
             <button type="button" class="card-btn"> Contact Us</button>
           </div>
       </div>
-    </div>
-   
-</body>       
     
     
     
