@@ -257,13 +257,12 @@ const Home = (props) => {
     <script src="main.js"></script>
 </body>        
 
+</div>
 
 
 
 
-
-        <div className="home-section-separator"></div>
-      </div>
+        
       <style jsx>
         {`
           .home-container {
