@@ -8,7 +8,7 @@ const Home = (props) => {
         <Head>
           <title>Landing Page1</title>
           <meta property="og:title" content="Landing Page1" />
-          <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="style2.css">
         </Head>
         <div data-role="Header" className="home-navbar-container">
           <div className="home-navbar">
