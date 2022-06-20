@@ -63,7 +63,7 @@ const Home = (props) => {
           <li>Software Beratung</li>
           <li>Hardware Beratung</li>
           <li>Zusammenstellung Gaming PC</li>
-          <li>Zusammenstellung Arbeits PC<li>
+          <li>Zusammenstellung Arbeits PC</li>
           <li>Zusammenbau PC</li>
         </ul>
       </div>
