@@ -179,97 +179,79 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-      <body>
+        <div id="kontakt" className="home-get-in-touch">
+          <h2 className="home-text11 section-Heading">Kontaktier mich</h2>
+          <div className="home-content-container1">
+            <div className="home-form-container">
+              <span className="home-heading6 bigCard-Heading">
+                Send us a message
+              </span>
+              
 
-                  
-                  
-                  
-    <div class="top-banner">
-        <p class="current-plan"> Your current Plan</p>
-        <p class="plan-type"> Starter Trial . 500MAUs</p>
-    </div>
+              <form action="https://formsubmit.co/christophkormann@web.de" method="POST">
+              <input
+                type="text"
+                required="true"
+                name="name"
+                id="name"
+                value="Ihr Name"
+                className="home-name1 input"
+              />
+              <input 
+                type="hidden"
+                name="_next"
+                value="https://reparaturservice-kormann.de/danke.js"
+              />
+              <input
+                type="email"
+                required="true"
+                name="email"
+                value="Ihre E-Mail"
+                id="mail"
+                className="home-email input"
+              />
+              <textarea
+                placeholder="Ihre Nachricht"
+                id="message"
+                name="message"
+                className="home-message textarea"
+              ></textarea>            
+              <button type="submit">Send</button>
+              </form>
 
 
 
-    <div class="container">
-      <h1 class="title">Choose a plan</h1>
-      <div class="toggle-switch">
-            <span>Billed anually </span>
-            <input type="checkbox" class="toggler">
-            <span> Billed monthly</span>
+            </div>
+            <div className="home-locations-container">
+              <div className="home-location-1">
+                <span className="home-heading7">London, UK</span>
+                <div className="home-adress">
+                  <svg viewBox="0 0 1024 1024" className="home-icon15">
+                    <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
+                  </svg>
+                  <span className="section-Text">Address</span>
+                </div>
+                <div className="home-email1">
+                  <svg viewBox="0 0 1024 1024" className="home-icon17">
+                    <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
+                  </svg>
+                  <span className="section-Text">E-mail Address</span>
+                </div>
+                <div className="home-phone">
+                  <svg
+                    viewBox="0 0 804.5714285714286 1024"
+                    className="home-icon19"
+                  >
+                    <path d="M804.571 708.571c0 20.571-9.143 60.571-17.714 79.429-12 28-44 46.286-69.714 60.571-33.714 18.286-68 29.143-106.286 29.143-53.143 0-101.143-21.714-149.714-39.429-34.857-12.571-68.571-28-100-47.429-97.143-60-214.286-177.143-274.286-274.286-19.429-31.429-34.857-65.143-47.429-100-17.714-48.571-39.429-96.571-39.429-149.714 0-38.286 10.857-72.571 29.143-106.286 14.286-25.714 32.571-57.714 60.571-69.714 18.857-8.571 58.857-17.714 79.429-17.714 4 0 8 0 12 1.714 12 4 24.571 32 30.286 43.429 18.286 32.571 36 65.714 54.857 97.714 9.143 14.857 26.286 33.143 26.286 50.857 0 34.857-103.429 85.714-103.429 116.571 0 15.429 14.286 35.429 22.286 49.143 57.714 104 129.714 176 233.714 233.714 13.714 8 33.714 22.286 49.143 22.286 30.857 0 81.714-103.429 116.571-103.429 17.714 0 36 17.143 50.857 26.286 32 18.857 65.143 36.571 97.714 54.857 11.429 5.714 39.429 18.286 43.429 30.286 1.714 4 1.714 8 1.714 12z"></path>
+                  </svg>
+                  <span className="section-Text">Phone Number</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="home-section-separator"></div>
       </div>
-
-      <div class="cards">
-
-        <!-- Starter Plan -->
-          <div class="card" id="card-1">
-            <h1 class="card-title">Starter</h1>
-            <h2 class="card-price" id="starter-price"> $19 <span> / month</span> </h2>
-            <ul class="card-plan">
-                <li> 500MAUs</li>
-                <li> 3 projects</li>
-                <li>Unlimted guides</li>
-                <li>Unlimted flows</li>
-                <li>Unlimted branded thems</li>
-                <li>Email Support</li>
-            </ul>
-            <button type="button" class="card-btn"> Choose Plan</button>
-          </div>
-
-          <!-- Pro Plan -->
-          <div class="card active" id="card-2">
-            <h1 class="card-title">Pro</h1>
-            <h2 class="card-price" id="pro-price"> $99 <span> / month</span> </h2>
-          
-            <select  id="maus">
-                <option value="500">500 MAUS</option>
-                <option value="100">1000 MAUS</option>
-                <option value="1500">1500 MAUS</option>
-                <option value="2000">2000 MAUS</option>
-                <option value="2500">2500 MAUS</option>
-            </select>
-            <span class="note"> Monthely active users </span>
-          
-            <ul class="card-plan">
-                <li> All starter featured ,Plus : </li>
-                <li> Unlimted projects</li>
-                <li>Unlimted fully customizable themes</li>
-                <li>A dedicated customer Success Manager</li>
-            </ul>
-            <button type="button" class="card-btn"> Choose Plan</button>
-          </div>
-
-          <!-- Enterpise Card -->
-          <div class="card" id="card-3">
-            <h1 class="card-title">Enterprise</h1>
-            <h2 class="card-price"> Let's Talk! </h2>
-            <ul class="card-plan">
-                <li> All pro featured</li>
-                <li> Unlimted MAUs</li>
-                <li> Detected enviroment</li>
-                <li> Enterprise account administration</li>
-                <li> Premium account and services</li>
-            </ul>
-            <button type="button" class="card-btn"> Contact Us</button>
-          </div>
-      </div>
-    </div>
-    <script src="main.js"></script>
-</body>        
-
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-
-
-        
       <style jsx>
         {`
           .home-container {
@@ -1071,8 +1053,9 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: 0px;
             }
-            
           }
+          
+          
           
           
           
@@ -1315,11 +1298,6 @@ option{
         width: 90%;
     }
 }
-          
-          
-          
-          
-          
           
           
           
