@@ -13,20 +13,20 @@ const Home = (props) => {
     <div class="plan-inner">
       <div class="entry-title">
         <h3>PC-Reparatur</h3>
-        <div class="price">70€<span>/h</span>
+        <div class="price">70€<span>/pro Stunde</span>
         </div>
       </div>
       <div class="entry-content">
         <ul>
-          <li> Hardware überprüfung</li>
-          <li><strong>2x</strong> option 2</li>
-          <li><strong>3x</strong> option 3</li>
-          <li><strong>Free</strong> option 4</li>
-          <li><strong>Unlimited</strong> option 5</li>
+          <li>Hardware überprüfung</li>
+          <li>Fehlersuche</li>
+          <li>PC Zurücksetzen</li>
+          <li>Vorort Dienst</li>
+          <li>Softwareprobleme</li>
         </ul>
       </div>
       <div class="btn">
-        <a href="#">Order Now</a>
+        <a href="#kontakt">Order Now</a>
       </div>
     </div>
   </div>
@@ -35,21 +35,18 @@ const Home = (props) => {
     <div class="plan-inner">
       <div class="hot">hot</div>
       <div class="entry-title">
-        <h3>Express Wash</h3>
-        <div class="price">$50<span>/PER CAR</span>
+        <h3>Handy Reparatur</h3>
+        <div class="price">70<span>/pro Stunde</span>
         </div>
       </div>
       <div class="entry-content">
         <ul>
-          <li><strong>1x</strong> option 1</li>
-          <li><strong>2x</strong> option 2</li>
-          <li><strong>3x</strong> option 3</li>
-          <li><strong>Free</strong> option 4</li>
-          <li><strong>Unlimited</strong> option 5</li>
-        </ul>
+          <li>Samsung Bildschirm Reparatur</li>
+          <li>IPhone Bildschirm Reparatur</li>
+         </ul>
       </div>
       <div class="btn">
-        <a href="#">Order Now</a>
+        <a href="#kontakt">Order Now</a>
       </div>
     </div>
   </div>
@@ -57,47 +54,25 @@ const Home = (props) => {
   <div class="plan standard">
     <div class="plan-inner">
       <div class="entry-title">
-        <h3>Super Wash</h3>
-        <div class="price">$75<span>/PER CAR</span>
+        <h3>IT Beratung</h3>
+        <div class="price">60<span>/Pro Stunde</span>
         </div>
       </div>
       <div class="entry-content">
         <ul>
-          <li><strong>2x</strong> Free Entrance</li>
-          <li><strong>Free</strong> Snacks</li>
-          <li><strong>Custom</strong> Swags</li>
-          <li><strong>2x</strong> Certificate</li>
-          <li><strong>Free</strong> Wifi</li>
+          <li>Software Beratung</li>
+          <li>Hardware Beratung</li>
+          <li>Zusammenstellung Gaming PC</li>
+          <li>Zusammenstellung Arbeits PC<li>
+          <li>Zusammenbau PC</li>
         </ul>
       </div>
       <div class="btn">
-        <a href="#">Order Now</a>
+        <a href="#kontakt">Order Now</a>
       </div>
     </div>
   </div>
-    <div class="plan ultimite">
-    <div class="plan-inner">
-      <div class="entry-title">
-        <h3>Unlimited Wash</h3>
-        <div class="price">$100<span>/PER CAR</span>
-        </div>
-      </div>
-      <div class="entry-content">
-        <ul>
-          <li><strong>1x</strong> option 1</li>
-          <li><strong>2x</strong> option 2</li>
-          <li><strong>3x</strong> option 3</li>
-          <li><strong>Free</strong> option 4</li>
-          <li><strong>Unlimited</strong> option 5</li>
-        </ul>
-      </div>
-      <div class="btn">
-        <a href="#">Order Now</a>
-      </div>
     </div>
-  </div>
-
-</div>
     
     
     
