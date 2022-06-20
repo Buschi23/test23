@@ -29,7 +29,7 @@ const Home = (props) => {
 
       <div class="cards">
 
-        <!-- Starter Plan -->
+        
           <div class="card" id="card-1">
             <h1 class="card-title">Starter</h1>
             <h2 class="card-price" id="starter-price"> $19 <span> / month</span> </h2>
@@ -44,7 +44,7 @@ const Home = (props) => {
             <button type="button" class="card-btn"> Choose Plan</button>
           </div>
 
-          <!-- Pro Plan -->
+         
           <div class="card active" id="card-2">
             <h1 class="card-title">Pro</h1>
             <h2 class="card-price" id="pro-price"> $99 <span> / month</span> </h2>
