@@ -9,58 +9,12 @@ const Home = (props) => {
           <title>Copy of Landing Page1</title>
           <meta property="og:title" content="Copy of Landing Page1" />
         </Head>
-        <div data-role="Header" className="home-navbar-container">
-          <div className="home-navbar">
-            <div className="home-left-side">
-              <img
-                alt="image"
-                src="/playground_assets/22978-200h.png"
-                className="home-image"
-              />
-              <div data-type="BurgerMenu" className="home-burger-menu">
-                <svg viewBox="0 0 1024 1024" className="home-icon">
-                  <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
-                </svg>
-              </div>
-              <div className="home-links-container">
-                <span className="home-link anchor">Resources</span>
-                <span className="home-link1 anchor">Inspiration</span>
-                <span className="home-link2 anchor">Process</span>
-                <span className="home-link3 anchor">Our story</span>
-              </div>
-            </div>
-            <div className="home-right-side">
-              <button className="home-cta-btn anchor button">
-                Kontakt aufnehmen
-              </button>
-            </div>
-            <div data-type="MobileMenu" className="home-mobile-menu">
-              <div className="home-container1">
-                <img
-                  alt="image"
-                  src="https://play.teleporthq.io/static/svg/default-img.svg"
-                  className="home-image1"
-                />
-                <div data-type="CloseMobileMenu" className="home-close-menu">
-                  <svg viewBox="0 0 1024 1024" className="home-icon2">
-                    <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
-                  </svg>
-                </div>
-              </div>
-              <div className="home-links-container1">
-                <span className="home-link4 anchor">Resources</span>
-                <span className="home-link5 anchor">Inspiration</span>
-                <span className="home-link6 anchor">Process</span>
-                <span className="home-link7 anchor">Our story</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="inspiration" className="home-features">
-          <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-          <div class="elfsight-app-1972139e-b9eb-4fd9-be53-8d9a210d3625"></div>
-            
-        </div>
+        
+    
+    
+    
+    
+    
       </div>
       <style jsx>
         {`
